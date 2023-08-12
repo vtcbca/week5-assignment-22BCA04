@@ -1,6 +1,9 @@
 '''Write a python program create csv file student.csv(sid,sname,city,contact) using 10 records 
+
 (in which 5 records input directly and 5 records take input from user) write records into this file.
+
 Read this file using csv module and print it. 
+
 NOTE: Reading and writting must be perform using python script.'''
 
 import csv
@@ -47,6 +50,28 @@ print()
 
 Output:-
 --------------------------------------------------------------------------------------------------------
+Enter Student ID:6
+Enter Student Name: Vishal
+Enter City Name: Sarbhon
+Enter Contact Number:9784562310
+Enter Student ID:7
+Enter Student Name: Vaidik
+Enter City Name: Bardoli
+Enter Contact Number:9874563210
+Enter Student ID:8
+Enter Student Name: Soham
+Enter City Name: Bardoli
+Enter Contact Number:9853264107
+Enter Student ID:9
+Enter Student Name: Meet
+Enter City Name: Surat
+Enter Contact Number:5647891230
+Enter Student ID:10
+Enter Student Name: Dhruv
+Enter City Name: Vyara
+Enter Contact Number:5698324710
+Record Inserted successful
+
 {'S_Id': '1', 'S_Name': 'Om', 'City': 'Sarbhon', 'Contact': '1234567890'}	          
 {'S_Id': '2', 'S_Name': 'Sai', 'City': 'Bardoli', 'Contact': '9876543210'}		
 {'S_Id': '3', 'S_Name': 'Ram', 'City': 'Bardoli', 'Contact': '564898321'}
