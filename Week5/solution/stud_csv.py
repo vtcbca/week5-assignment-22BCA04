@@ -11,7 +11,13 @@ with open("c://sqlite3//student_csv.csv","w",newline="")as stud:
     header=['S_Id','S_Name','City','Contact']
     write.writerow(header)
     #5 record's insert directly in csv file
-    rows=[[1,'Om','Sarbhon',1234567890],[2,'Sai','Bardoli',9876543210],[3,'Ram','Bardoli',564898321],[4,'Jai','Surat',1748523690],[5,'Shree','Vyara',9632587410]]
+    rows=[
+        [1,'Om','Sarbhon',1234567890],
+        [2,'Sai','Bardoli',9876543210],
+        [3,'Ram','Bardoli',564898321],
+        [4,'Jai','Surat',1748523690],
+        [5,'Shree','Vyara',9632587410]
+        ]
     write.writerows(rows)
     print('Record Inserted successful')
     
